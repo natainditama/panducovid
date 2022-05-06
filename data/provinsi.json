@@ -1,0 +1,142 @@
+{
+  "curr_val": "Provinsi",
+  "message": "<label for='sw_win'>No message returned<\/label>",
+  "results": [
+    {
+      "key": "ACEH",
+      "value": "ACEH"
+    },
+    {
+      "key": "BALI",
+      "value": "BALI"
+    },
+    {
+      "key": "BANTEN",
+      "value": "BANTEN"
+    },
+    {
+      "key": "BENGKULU",
+      "value": "BENGKULU"
+    },
+    {
+      "key": "DKI JAKARTA",
+      "value": "DKI JAKARTA"
+    },
+    {
+      "key": "GORONTALO",
+      "value": "GORONTALO"
+    },
+    {
+      "key": "JAMBI",
+      "value": "JAMBI"
+    },
+    {
+      "key": "JAWA BARAT",
+      "value": "JAWA BARAT"
+    },
+    {
+      "key": "JAWA TENGAH",
+      "value": "JAWA TENGAH"
+    },
+    {
+      "key": "JAWA TIMUR",
+      "value": "JAWA TIMUR"
+    },
+    {
+      "key": "KALIMANTAN BARAT",
+      "value": "KALIMANTAN BARAT"
+    },
+    {
+      "key": "KALIMANTAN SELATAN",
+      "value": "KALIMANTAN SELATAN"
+    },
+    {
+      "key": "KALIMANTAN TENGAH",
+      "value": "KALIMANTAN TENGAH"
+    },
+    {
+      "key": "KALIMANTAN TIMUR",
+      "value": "KALIMANTAN TIMUR"
+    },
+    {
+      "key": "KALIMANTAN UTARA",
+      "value": "KALIMANTAN UTARA"
+    },
+    {
+      "key": "KEPULAUAN BANGKA BELITUNG",
+      "value": "KEPULAUAN BANGKA BELITUNG"
+    },
+    {
+      "key": "KEPULAUAN RIAU",
+      "value": "KEPULAUAN RIAU"
+    },
+    {
+      "key": "LAMPUNG",
+      "value": "LAMPUNG"
+    },
+    {
+      "key": "MALUKU",
+      "value": "MALUKU"
+    },
+    {
+      "key": "MALUKU UTARA",
+      "value": "MALUKU UTARA"
+    },
+    {
+      "key": "NUSA TENGGARA BARAT",
+      "value": "NUSA TENGGARA BARAT"
+    },
+    {
+      "key": "NUSA TENGGARA TIMUR",
+      "value": "NUSA TENGGARA TIMUR"
+    },
+    {
+      "key": "PAPUA",
+      "value": "PAPUA"
+    },
+    {
+      "key": "PAPUA BARAT",
+      "value": "PAPUA BARAT"
+    },
+    {
+      "key": "RIAU",
+      "value": "RIAU"
+    },
+    {
+      "key": "SULAWESI BARAT",
+      "value": "SULAWESI BARAT"
+    },
+    {
+      "key": "SULAWESI SELATAN",
+      "value": "SULAWESI SELATAN"
+    },
+    {
+      "key": "SULAWESI TENGAH",
+      "value": "SULAWESI TENGAH"
+    },
+    {
+      "key": "SULAWESI TENGGARA",
+      "value": "SULAWESI TENGGARA"
+    },
+    {
+      "key": "SULAWESI UTARA",
+      "value": "SULAWESI UTARA"
+    },
+    {
+      "key": "SUMATERA BARAT",
+      "value": "SUMATERA BARAT"
+    },
+    {
+      "key": "SUMATERA SELATAN",
+      "value": "SUMATERA SELATAN"
+    },
+    {
+      "key": "SUMATERA UTARA",
+      "value": "SUMATERA UTARA"
+    },
+    {
+      "key": "YOGYAKARTA",
+      "value": "YOGYAKARTA"
+    }
+  ]
+}
