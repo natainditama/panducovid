@@ -11,22 +11,22 @@
 <!-- Badges -->
 <p>
   <a href="https://github.com/natainditama/FASTTEKNO-22/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/natainditama/FASTTEKNO-22" alt="contributors" />
+    <img src="https://img.shields.io/github/contributors/natainditama/panducovid" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/natainditama/FASTTEKNO-22" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/natainditama/panducovid" alt="last update" />
   </a>
   <a href="https://github.com/natainditama/FASTTEKNO-22/network/members">
-    <img src="https://img.shields.io/github/forks/natainditama/FASTTEKNO-22" alt="forks" />
+    <img src="https://img.shields.io/github/forks/natainditama/panducovid" alt="forks" />
   </a>
   <a href="https://github.com/natainditama/FASTTEKNO-22/stargazers">
-    <img src="https://img.shields.io/github/stars/natainditama/FASTTEKNO-22" alt="stars" />
+    <img src="https://img.shields.io/github/stars/natainditama/panducovid" alt="stars" />
   </a>
   <a href="https://github.com/natainditama/FASTTEKNO-22/issues/">
-    <img src="https://img.shields.io/github/issues/natainditama/FASTTEKNO-22" alt="open issues" />
+    <img src="https://img.shields.io/github/issues/natainditama/panducovid" alt="open issues" />
   </a>
   <a href="https://github.com/natainditama/FASTTEKNO-22/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/natainditama/FASTTEKNO-22.svg" alt="license" />
+    <img src="https://img.shields.io/github/license/natainditama/panducovid.svg" alt="license" />
   </a>
 </p>
    
