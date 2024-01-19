@@ -1,0 +1,16 @@
+{
+  "name": "panducovid",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build",
+    "start": "yarn clean && parcel",
+    "clean": "yarn rimraf -rf .parcel-cache"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "prettier": "^3.2.4",
+    "rimraf": "^5.0.5"
+  }
+}
