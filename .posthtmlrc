@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "posthtml-include": {
+      "root": "./src"
+    },
+    "posthtml-noscript": {
+      "content": "You need to enable JavaScript to run this app."
+    }
+  }
+}

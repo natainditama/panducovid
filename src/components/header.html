@@ -1,0 +1,78 @@
+<!-- Pop up -->
+<div class="bg-white hidden md:flex items-center p-4 z-10" id="popup">
+  <div class="container mx-auto flex justify-center gap-6">
+    <p class="opacity-75">Temukan lokasi vaksinasi terdekat. Ayo segera vaksin!</p>
+    <a href="vaksin.html" class="text-primary flex gap-4 items-center">Lihat di sini <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+<!-- Navbar -->
+<nav class="navbar sticky inset-0 bottom-auto flex z-40 items-center">
+  <div class="container mx-auto flex justify-between transition-colors delay-200">
+    <div class="flex items-center">
+      <a href="index.html" class="flex items-center gap-1 site-logo"
+        ><img src="assets/images/logo.png" alt="PanduCovid" class="h-9" /> <span class="text-xl font-semibold">PanduCovid</span></a
+      >
+    </div>
+    <div class="hidden flex-1 items-center justify-center gap-6 lg:flex">
+      <a class="nav-link nav-link-grow-up" href="index.html">Beranda</a>
+      <a class="nav-link nav-link-grow-up" href="informasi.html">Informasi</a>
+      <a class="nav-link nav-link-grow-up" href="vaksin.html">Vaksin</a>
+      <a class="nav-link nav-link-grow-up" href="province.html">Provinsi</a>
+      <a class="nav-link nav-link-grow-up" href="rujukan.html">Rujukan</a>
+    </div>
+    <div class="hidden items-center justify-end gap-4 lg:flex">
+      <button class="btn-search h-full aspect-square rounded-full">
+        <i class="fa-solid fa-search"></i>
+      </button>
+      <button class="btn btn-primary flex items-center"><i class="fa-solid fa-phone"></i> <span class="ml-1">Bantuan</span></button>
+    </div>
+    <div class="flex items-center justify-center gap-2 lg:hidden">
+      <button class="btn-search h-10 aspect-square rounded-full">
+        <i class="fa-solid fa-search"></i>
+      </button>
+      <button class="hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+      </button>
+      <button class="hidden btn btn-primary -mt-2 md:flex items-center"><i class="fa-solid fa-phone"></i> <span class="ml-1">Bantuan</span></button>
+    </div>
+  </div>
+</nav>
+<!-- Pop up mobile -->
+<div class="bg-white flex items-center p-4 md:hidden z-10" id="popup-mobile">
+  <div class="container mx-auto flex flex-col justify-center">
+    <p class="opacity-75">Temukan lokasi vaksinasi terdekat. Ayo segera vaksin!</p>
+    <a href="vaksin.html" class="text-primary flex gap-4 items-center w-max">Lihat di sini <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+<!-- Sidebar -->
+<aside class="sidebar sidebar-effect w-full fixed">
+  <div class="flex items-center justify-center w-full h-20">
+    <a href="index.html" class="flex items-center gap-1 justify-center"
+      ><img src="assets/images/logo.png" alt="PanduCovid" class="h-9" /> <span class="text-xl font-semibold">PanduCovid</span></a
+    >
+  </div>
+  <div class="flex flex-col justify-center items-center flex-1 py-4 px-6">
+    <a class="side-link side-link-fade-up" href="index.html">Beranda</a>
+    <a class="side-link side-link-fade-up" href="informasi.html">Informasi</a>
+    <a class="side-link side-link-fade-up" href="vaksin.html">Vaksin</a>
+    <a class="side-link side-link-fade-up" href="province.html">Provinsi</a>
+    <a class="side-link side-link-fade-up" href="rujukan.html">Rujukan</a>
+  </div>
+</aside>
+<!-- Backdrop -->
+<div class="backdrop backdrop-search"></div>
+<div class="backdrop backdrop-sidebar"></div>
+<!-- Search -->
+<div class="search-box">
+  <div class="bg-white h-full w-full rounded-lg shadow overflow-hidden flex flex-col">
+    <form class="flex justify-between items-center py-2 px-4 gap-2 border-b search-form" autocomplete="off">
+      <label for="search" class="h-10 aspect-square rounded-full flex justify-center items-center"><i class="fa-solid fa-search"></i></label>
+      <input class="flex-1 h-12" type="text" name="keyword" id="search" placeholder="Pencarian..." autofocus />
+      <button type="reset" class="close-search h-10 aspect-square rounded-full flex justify-center items-center">
+        <i class="fa-solid fa-xmark text-xl"></i>
+      </button>
+    </form>
+    <ul class="w-full h-full flex-1 overflow-auto relative">
+    </ul>
+  </div>
+</div>

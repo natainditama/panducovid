@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <include src="components/metadata.html"></include>
+  </head>
+  <body>
+    <include src="components/header.html"></include>
+    <!-- Main -->
+    <main class="overflow-x-hidden relative">
+      <!-- Hero Section -->
+      <section class="h-max bg-cover bg-local bg-line pt-10">
+        <div class="container mx-auto h-full pb-10 lg:pb-20">
+          <div class="grid h-max grid-cols-0 grid-rows-0 lg:grid-cols-2 lg:grid-rows-1 gap-y-4">
+            <div class="order-1 flex flex-col justify-center gap-4 lg:order-none h-full">
+              <h1 class="text-3xl md:text-4xl font-bold">Mencegah Penyebaran Tetap di Rumah, Tetap Aman</h1>
+              <p class="mb-4">
+                Cara terbaik untuk mencegah dan memperlambat penularan adalah mendapat informasi yang baik tentang virus COVID-19. Lindungi diri Anda dan orang
+                lain dari infeksi dengan mencuci tangan setidaknya 20 detik dan tidak menyentuh wajah Anda.
+              </p>
+              <div class="flex flex-col gap-2 col-span-2 md:col-span-1">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div class="flex flex-col justify-center">
+                    <span class="opacity-75">Positif</span>
+                    <strong class="text-3xl font-semibold counter" data-target="positif">0</strong>
+                  </div>
+                  <div class="flex flex-col justify-center">
+                    <span class="opacity-75">Meninggal</span>
+                    <strong class="text-3xl font-semibold counter" data-target="meninggal">0</strong>
+                  </div>
+                  <div class="flex flex-col justify-center">
+                    <span class="opacity-75">Sembuh</span>
+                    <strong class="text-3xl font-semibold counter" data-target="sembuh">0</strong>
+                  </div>
+                </div>
+                <small class="text-sm opacity-50 italic last-update">* Terakhir diperbarui:</small>
+              </div>
+            </div>
+            <div class="flex h-max items-end justify-center">
+              <img src="assets/images/office-worker.png" alt="Working from Beranda" class="w-full" style="transform: scale(1.2)" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- News Section -->
+      <section class="h-max bg-white">
+        <div class="container mx-auto h-full lg:py-20 py-10">
+          <div class="grid h-full grid-cols-0 grid-rows-0 gap-10 lg:gap-4 lg:grid-cols-3 lg:grid-rows-1">
+            <div class="flex h-full items-center justify-center order-2 lg:order-none">
+              <ul class="shadow-sm hover:shadow w-full bg-white border rounded-lg news-suggest">
+                <li class="flex items-center py-4 px-6">
+                  <span class="font-semibold text-lg">Apa yang perlu Anda ketahui</span>
+                </li>
+              </ul>
+            </div>
+            <div class="flex flex-col justify-center col-span-1 lg:col-span-2 order-1 lg:order-none">
+              <div class="news-carousel"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Symptroms Section -->
+      <section class="h-max bg-map bg-cover bg-center relative">
+        <img src="assets/images/shape-map.png" class="absolute inset-0 w-full md:w-3/4 lg:w-1/2 m-auto object-cover z-0" alt="Shape Map" />
+        <div class="container mx-auto h-full lg:py-20 py-10 relative z-10">
+          <div class="flex flex-col items-center text-center">
+            <span class="text-primary uppercase text-lg font-semibold">Apa saja gejala COVID-19?</span>
+            <h2 class="text-3xl md:text-4xl uppercase text-center font-bold">Gejala virus corona</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-4 h-full mt-12 gap-6 lg:gap-2">
+              <div class="grid grid-rows-1 grid-cols-3 lg:grid-rows-3 lg:grid-cols-1 h-full gap-4">
+                <div class="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-end gap-4 lg:gap-2">
+                  <span class="font-semibold text-center lg:text-right">Batuk dan bersin</span>
+                  <img src="assets/images/coughing-sneezing.png" class="rounded-full w-20" alt="Coughing And Sneezing" />
+                </div>
+                <div class="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-end gap-4 lg:gap-2">
+                  <span class="font-semibold text-center lg:text-right">Sesak napas</span>
+                  <img src="assets/images/shortness-breath.png" class="rounded-full w-20" alt="Shortness Of Breath" />
+                </div>
+                <div class="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-end gap-4 lg:gap-2">
+                  <span class="font-semibold text-center lg:text-right">Pusing</span>
+                  <img src="assets/images/confusion.png" class="rounded-full w-20" alt="Confusion" />
+                </div>
+              </div>
+              <div class="flex justify-center items-center lg:col-span-2">
+                <img src="assets/images/symptroms.png" alt="Corona Symptroms" />
+              </div>
+              <div class="grid grid-rows-1 grid-cols-3 lg:grid-rows-3 lg:grid-cols-1 h-full gap-4">
+                <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-4 lg:gap-2">
+                  <img src="assets/images/hot-fever.png" class="rounded-full w-20" alt="Hot Fever" />
+                  <span class="font-semibold text-center lg:text-left">Demam</span>
+                </div>
+                <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-4 lg:gap-2">
+                  <img src="assets/images/strong-headacke.png" class="rounded-full w-20" alt="Strong Headacke" />
+                  <span class="font-semibold text-center lg:text-left">Sakit kepala</span>
+                </div>
+                <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-4 lg:gap-2">
+                  <img src="assets/images/sore-throat.png" class="rounded-full w-20" alt="Sore Throat" />
+                  <span class="font-semibold text-center lg:text-left">Sakit tenggorokan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Protect Section -->
+      <section class="h-max relative bg-virus z-10">
+        <div class="container mx-auto h-full py-20">
+          <div class="flex flex-col items-center gap-2">
+            <h2 class="text-3xl md:text-4xl uppercase text-center font-bold">Lindungi dirimu sendiri</h2>
+            <p class="w-full lg:w-3/4 text-justify md:text-center">
+              Hal terbaik yang dapat Anda lakukan sekarang adalah merencanakan bagaimana Anda dapat menyesuaikan rutinitas harian Anda. Lakukan beberapa langkah
+              untuk melindungi diri Anda. Cara terbaik untuk mencegah penyakit adalah dengan menghindari terkena virus ini.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 h-full mt-6 gap-6">
+              <div class="flex flex-col gap-4">
+                <div class="prevention-box lg:py-4 lg:px-6 flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/wash-hands.png" class="rounded-full w-40 lg:w-20" alt="Wash your hands" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Cuci tanganmu dengan hand sanitizer</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat illo animi</p>
+                  </div>
+                </div>
+                <div class="prevention-box lg:py-4 lg:px-6 flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/ware-mask.jpg" class="rounded-full w-40 lg:w-20" alt="Ware a face mask " />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Siapkan masker wajah di luar</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet officia necessitatibus</p>
+                  </div>
+                </div>
+                <div class="prevention-box lg:py-4 lg:px-6 flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/cover-cough.jpg" class="rounded-full w-40 lg:w-20" alt="Cover your cough" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Tutupi kertas tisu batuk Anda</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet officia necessitatibus</p>
+                  </div>
+                </div>
+                <div class="prevention-box lg:py-4 lg:px-6 flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/check-body.jpg" class="rounded-full w-40 lg:w-20" alt="Check your body" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Periksa tubuh Anda secara teratur</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet officia necessitatibus</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4">
+                <div class="prevention-box lg:py-4 lg:px-6 danger flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/contact-people.jpg" class="rounded-full w-40 lg:w-20" alt="Avoid contact with sick people" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Hindari kontak dengan orang sakit</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat illo animi</p>
+                  </div>
+                </div>
+                <div class="prevention-box lg:py-4 lg:px-6 danger flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/contact-animals.jpg" class="rounded-full w-40 lg:w-20" alt="Avoid contact with animals" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Hindari kontak dengan hewan</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet officia necessitatibus</p>
+                  </div>
+                </div>
+                <div class="prevention-box lg:py-4 lg:px-6 danger flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/crowded-places.jpg" class="rounded-full w-40 lg:w-20" alt="" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Hindari tempat ramai</span>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet officia necessitatibus</p>
+                  </div>
+                </div>
+                <div class="prevention-box lg:py-4 lg:px-6 danger flex flex-col lg:flex-row justify-center items-center gap-4">
+                  <img src="assets/images/contaminated-objects.jpg" class="rounded-full w-40 lg:w-20" alt="Contaminated objects" />
+                  <div class="text-white text-center lg:text-left">
+                    <span class="font-semibold text-lg">Hindari benda yang terkontaminasi</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet officia necessitatibus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Wash Hand Section -->
+      <section class="h-max">
+        <div class="container mx-auto h-full lg:py-20 py-10">
+          <div class="flex flex-col lg:flex-row gap-4 lg:gap-0 mb-8">
+            <div class="flex flex-col md:flex-row md:items-center md:gap-2" style="flex: 1 1 0%">
+              <h1 class="text-6xl uppercase font-semibold">Cara</h1>
+              <div class="flex flex-col justify-center uppercase">
+                <span class="-mb-1 text-primary text-lg font-medium" style="letter-spacing: 2px">Mencuci tangan</span>
+                <strong class="-mt-1 text-2xl font-medium">yang Benar</strong>
+              </div>
+            </div>
+            <p style="flex: 1.5 1.5 0%" class="text-base">
+              Tangan merupakan media yang sangat ampuh untuk berpindahnya penyakit, karena tangan digunakan untuk memegang benda-benda yang seringkali tidak
+              kita ketahui dengan pasti kebersihannya
+            </p>
+          </div>
+          <div class="grid grid-cols-1 grid-rows-5 md:grid-cols-5 md:grid-rows-1 gap-10 symptoms-grid">
+            <figure class="card card-slide-left p-2">
+              <img src="assets/images/soap-on-hand.png" alt="Soap on Hand" class="w-3/4 mx-auto lg:w-full rounded-full" />
+              <figcaption class="bg-white grid place-items-center p-6">
+                <p class="text-center lg:text-sm">Basahi tangan, gosok sabun pada telapak tangan kemudian usap dan gosok kedua telapak tangan secara lembut</p>
+              </figcaption>
+              <a href="javascript:;"></a>
+            </figure>
+            <figure class="card card-slide-left p-2">
+              <img src="assets/images/between-fingers.png" alt="Between Fingers" class="w-3/4 mx-auto lg:w-full rounded-full" />
+              <figcaption class="bg-white grid place-items-center p-6">
+                <p class="text-center lg:text-sm">Usap dan gosok juga kedua punggung tangan secara bergantian. Gosok sela-sela jari tangan hingga bersih</p>
+              </figcaption>
+              <a href="javascript:;"></a>
+            </figure>
+            <figure class="card card-slide-left p-2">
+              <img src="assets/images/back-to-hands.png" alt="Back to Hands" class="w-3/4 mx-auto lg:w-full rounded-full" />
+              <figcaption class="bg-white grid place-items-center p-6">
+                <p class="text-center lg:text-sm">
+                  Bersihkan ujung jari secara bergantian dengan posisi saling mengunci. Gosok dan putar kedua ibu jari secara bergantian
+                </p>
+              </figcaption>
+              <a href="javascript:;"></a>
+            </figure>
+            <figure class="card card-slide-left p-2">
+              <img src="assets/images/clean-with-water.png" alt="Clean with Water" class="w-3/4 mx-auto lg:w-full rounded-full" />
+              <figcaption class="bg-white grid place-items-center p-6">
+                <p class="text-center lg:text-sm">Letakkan ujung jari ke telapak tangan kemudian gosok perlahan. Bilas dengan air bersih dan keringkan</p>
+              </figcaption>
+              <a href="javascript:;"></a>
+            </figure>
+            <div class="slide-wash-hands relative overflow-hidden">
+              <div class="slider rounded-full h-full mx-auto w-3/4 lg:w-full bg-center bg-cover"></div>
+              <a class="absolute inset-0 h-max w-max m-auto z-10" data-fancybox="video-gallery" href="https://youtu.be/iOZJjFGy508"
+                ><i class="fa-solid fa-play text-4xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <include src="components/footer.html"></include>
+  </body>
+</html>
