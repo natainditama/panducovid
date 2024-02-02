@@ -14,9 +14,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  BUILD_PATH: "."
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -46,7 +43,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
       
       - name: Setup Pages
         id: pages
@@ -54,18 +50,16 @@ jobs:
           
       - name: Install Dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-        working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Parcel
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} parcel build \
             --public-url "${{ steps.pages.outputs.base_path }}"
-        working-directory: ${{ env.BUILD_PATH }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.BUILD_PATH }}/dist
+          path: dist
       
   deploy:
     environment:
