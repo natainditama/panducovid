@@ -1,6 +1,27 @@
 {
   "name": "panducovid",
   "version": "1.0.0",
+  "private": true,
+  "description": "Spread awareness about COVID-19",
+  "homepage": "https://panducovid.pages.dev",
+  "bugs": {
+    "url": "https://github.com/natainditama/panducovid/issues",
+    "email": "natainditama.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natainditama/panducovid"
+  },
+  "author": {
+    "name": "natainditama",
+    "email": "natainditama.dev@gmail.com",
+    "url": "https://github.com/natainditama"
+  },
+  "keywords": [
+    "html-template",
+    "parcel",
+    "healthcare"
+  ],
   "license": "MIT",
   "source": "src/index.html",
   "scripts": {
