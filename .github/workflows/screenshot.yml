@@ -1,8 +1,6 @@
 name: Screenshot Website
 
 on:
-  push:
-    branches: [main, master]
   schedule:
     - cron: "0 9 * * *"
 
@@ -37,9 +35,5 @@ jobs:
         with:
           message: "docs: update ${{ steps.screenshot.outputs.path }}"
           add: "${{ steps.screenshot.outputs.path }}"
-          author_email: natainditama.dev@gmail.com
-          author_name: Nata Inditama
-          committer_email: natainditama.dev@gmail.com
-          committer_name: Nata Inditama
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

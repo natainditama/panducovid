@@ -21,9 +21,9 @@ async function main() {
 
   Fancybox.bind("[data-fancybox]", {});
 
-  if (location.pathname == "/vaksin.html") {
-    $("#popup, #popup-mobile").hide();
-  }
+  // if (location.pathname == "/vaksin.html") {
+  //   $("#popup, #popup-mobile").hide();
+  // }
 
   // Fetching and displaying latest articles
   const latestArticles = artikel?.pageProps?.posts ?? [];
@@ -280,7 +280,7 @@ function fetchPosts(category = "artikel", order = "desc") {
   if ("/informasi.html" == location.pathname) {
     $("title").text(`PanduCovid - ${pageCategory.description}`);
     $(".inform-title").html(
-      `<strong class="text-2xl font-semibold">${pageCategory.name}</strong> <span class="hidden md:flex">-</span> ${pageCategory.description}`
+      `<strong class="font-semibold">${pageCategory.name}</strong> <span class="hidden md:flex">-</span> ${pageCategory.description}`
     );
   }
 
