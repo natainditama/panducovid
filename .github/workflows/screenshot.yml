@@ -29,13 +29,12 @@ jobs:
         uses: flameddd/screenshots-ci-action@master
         with:
           url: "${{ steps.pages_url.outputs.url }}"
-          devices: iPhone 6,iPhone 6 landscape,Nexus 7,Pad Pro,Galaxy S III landscape,iPad Pro landscape
-    
-      - name: Uplaod screenshots
-        uses: actions/upload-artifact@v2
-        with:
-          path: screenshots
-          name: Download-screenshots
+          
+      # - name: Uplaod screenshots
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     path: screenshots
+      #     name: Download-screenshots
 
       # - name: Generate screenshot
       #   id: "screenshot"
@@ -51,17 +50,16 @@ jobs:
       #     source: "${{ steps.pages_url.outputs.url }}"
       #     destination: .github/screnshot.png
 
-      # - name: Commit changes
-      #   # Only run this step if screenshot path is not empty
-      #   if: steps.screenshot.outputs.path != ''  
-      #   uses: EndBug/add-and-commit@v9
-      #   with:
-      #     message: "docs: update ${{ steps.screenshot.outputs.path }}"
-      #     add: "${{ steps.screenshot.outputs.path }}"
-      #     author_email: natainditama.dev@gmail.com
-      #     author_name: Nata Inditama
-      #     committer_email: natainditama.dev@gmail.com
-      #     committer_name: Nata Inditama
-      #     new_branch: docs
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        # Only run this step if screenshot path is not empty
+        if: steps.screenshot.outputs.path != ''  
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "docs: update screenshot"
+          add: "."
+          author_email: natainditama.dev@gmail.com
+          author_name: Nata Inditama
+          committer_email: natainditama.dev@gmail.com
+          committer_name: Nata Inditama
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
