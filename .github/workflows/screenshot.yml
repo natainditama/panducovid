@@ -23,12 +23,19 @@ jobs:
           REPO_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print $2}')
           echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/$REPO_NAME/"
 
-      - name: Generate screenshot
+      # - name: Generate screenshot
+      #   id: "screenshot"
+      #   uses: natainditama/screen-snap@main
+      #   with:
+        #     url: "${{ steps.pages_url.outputs.url }}"
+        #     fileName: ".github/screnshot.png"
+        
+      - name: Screenshot Website
         id: "screenshot"
-        uses: natainditama/screen-snap@main
+        uses: swinton/screenshot-website@v1.x
         with:
-          url: "${{ steps.pages_url.outputs.url }}"
-          fileName: ".github/screnshot.png"
+          source: "${{ steps.pages_url.outputs.url }}"
+          destination: .github/screnshot.png
 
       - name: Commit changes
         # Only run this step if screenshot path is not empty
