@@ -39,5 +39,8 @@ jobs:
           add: "${{ steps.screenshot.outputs.path }}"
           author_email: natainditama.dev@gmail.com
           author_name: Nata Inditama
+          committer_email: natainditama.dev@gmail.com
+          committer_name: Nata Inditama
+          new_branch: docs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
