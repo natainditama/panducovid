@@ -14,47 +14,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install puppeteer-headful
-        uses: mujo-code/puppeteer-headful@master
-        env:
-          CI: 'true'
+      - name: Install playwright browsers
+        run: npx playwright install --with-deps
 
-      - name: Get github pages URL
+      - name: Get pages URL
         id: pages_url
         run: |
           REPO_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print $2}')
           echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/$REPO_NAME/"
 
-      - name: screenshots-ci-action
-        uses: flameddd/screenshots-ci-action@master
+      - name: Generate screenshot
+        id: "screenshot"
+        uses: natainditama/screen-snap@main
         with:
           url: "${{ steps.pages_url.outputs.url }}"
-          
-      - name: Uplaod screenshots
-        uses: actions/upload-artifact@v2
-        with:
-          path: screenshots
-          name: screenshots
-
-      # - name: Generate screenshot
-      #   id: "screenshot"
-      #   uses: natainditama/screen-snap@main
-      #   with:
-        #     url: "${{ steps.pages_url.outputs.url }}"
-        #     fileName: ".github/screnshot.png"
-        
-      # - name: Screenshot Website
-      #   id: "screenshot"
-      #   uses: swinton/screenshot-website@v1.x
-      #   with:
-      #     source: "${{ steps.pages_url.outputs.url }}"
-      #     destination: .github/screnshot.png
+          fileName: ".github/screnshot.png"
 
       - name: Commit changes 
+        # Only run this step if screenshot path is not empty
+        if: steps.screenshot.outputs.path != ''  
         uses: EndBug/add-and-commit@v9
         with:
-          message: "docs: update screenshots"
-          add: "."
+          message: "docs: update ${{ steps.screenshot.outputs.path }}"
+          add: "${{ steps.screenshot.outputs.path }}"
           author_email: natainditama.dev@gmail.com
           author_name: Nata Inditama
           committer_email: natainditama.dev@gmail.com
