@@ -491,6 +491,16 @@
   dependencies:
     "@parcel/plugin" "2.11.0"
 
+"@parcel/packager-xml@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@parcel/packager-xml/-/packager-xml-2.11.0.tgz#6eb288b22b5ba7f8825cbba04e7f4748881dc5ee"
+  integrity sha512-UizQVNQg5j54yzFWwMr32X2mmWx2HYPSa2s0QqCKGjH9oDAbu4ouioTxoRFDmAFrM75ZOpn91lDRiUyIuf78JQ==
+  dependencies:
+    "@parcel/plugin" "2.11.0"
+    "@parcel/types" "2.11.0"
+    "@parcel/utils" "2.11.0"
+    "@xmldom/xmldom" "^0.7.9"
+
 "@parcel/plugin@2.11.0":
   version "2.11.0"
   resolved "https://registry.npmjs.org/@parcel/plugin/-/plugin-2.11.0.tgz"
@@ -738,6 +748,14 @@
     "@parcel/plugin" "2.11.0"
     "@parcel/utils" "2.11.0"
 
+"@parcel/transformer-xml@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-xml/-/transformer-xml-2.11.0.tgz#a7833d6f8cd8d322c703de1066e265d28c540960"
+  integrity sha512-5Kt7sQXpf+0UfHszeWo3Tcl8p0FdH25KlviUCNP3v/GeJgCp+qYbST1m0vU+j7ladhmbTLgZNQOF+sl8O7KInw==
+  dependencies:
+    "@parcel/plugin" "2.11.0"
+    "@xmldom/xmldom" "^0.7.9"
+
 "@parcel/types@2.11.0":
   version "2.11.0"
   resolved "https://registry.npmjs.org/@parcel/types/-/types-2.11.0.tgz"
@@ -955,6 +973,11 @@
   version "0.2.0"
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
+
+"@xmldom/xmldom@^0.7.9":
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.13.tgz#ff34942667a4e19a9f4a0996a76814daac364cf3"
+  integrity sha512-lm2GW5PkosIzccsaZIz7tp8cPADSIlIHWDFTR1N0SzfinhhYgeIQjFMz4rYzanCScr3DqQLeomUDArp6MWKm+g==
 
 abortcontroller-polyfill@^1.1.9:
   version "1.7.5"
