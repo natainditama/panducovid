@@ -4,7 +4,7 @@
     <include
       src="components/metadata.html"
       locals='{
-        "title": "Provinsi"
+        "title": "Rujukan"
       }'
     ></include>
   </head>
@@ -13,7 +13,34 @@
     <!-- Main -->
     <main class="overflow-visible relative">
       <!-- Hero Section -->
-      <section class="h-[50vh]"></section>
+       <section class="h-max bg-cover bg-local">
+        <div class="container mx-auto h-full pb-10 lg:pb-20">
+          <div
+            class="grid h-max grid-cols-0 grid-rows-0 lg:grid-cols-2 lg:grid-rows-1 gap-4 md:gap-6"
+          >
+            <div
+              class="order-1 flex flex-col justify-center gap-4 lg:order-none h-full"
+            >
+              <h1 class="text-2xl md:text-3xl font-bold">
+                Pusat Rujukan COVID-19: Temukan Informasi Penting di Satu Tempat
+              </h1>
+              <p class="text-base">
+                Pusat Rujukan COVID-19 adalah sumber informasi yang lengkap dan terkini untuk semua kebutuhan terkait pandemi. Dengan temukan informasi penting dalam satu tempat, Anda dapat dengan cepat mengakses panduan pencegahan, perkembangan terbaru, dan sumber daya kesehatan terpercaya
+              </p>
+            </div>
+            <div class="flex h-max items-end justify-center">
+              <div class="relative">
+                <img
+                  src="assets/images/surgery.png"
+                  alt="Surgery"
+                  class="w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="h-[20vh]"></section>
     </main>
     <include src="components/footer.html"></include>
   </body>
