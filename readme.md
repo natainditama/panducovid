@@ -2,7 +2,7 @@
 
   <h1>Panducovid</h1>  
   <p>
-    Spread awareness about COVID-19 
+    Comprehensive COVID-19 awareness website
   </p>
 
 <!-- Badges -->
@@ -10,14 +10,23 @@
   <a href="https://github.com/natainditama/panducovid/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/natainditama/panducovid" alt="contributors" />
   </a>
-  <a href="https://github.com/natainditama/panducovid">
-    <img src="https://img.shields.io/github/last-commit/natainditama/panducovid" alt="last update" />
-  </a>
   <a href="https://github.com/natainditama/panducovid/issues/">
     <img src="https://img.shields.io/github/issues/natainditama/panducovid" alt="open issues" />
   </a>
+  <a href="https://github.com/natainditama/panducovid/network/members">
+    <img src="https://badgen.net/github/forks/natainditama/panducovid" alt="forks" />
+  </a>
+  <a href="https://github.com/natainditama/panducovid/graphs/commit-activity">
+    <img src="https://badgen.net/github/commits/natainditama/panducovid" alt="commits count" />
+  </a>
+  <a href="https://github.com/natainditama/panducovid/stargazers">
+    <img src="https://badgen.net/github/stars/natainditama/panducovid" alt="stars" />
+  </a>
   <a href="https://github.com/natainditama/panducovid/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/natainditama/panducovid.svg" alt="license" />
+  </a>
+  <a href="https://github.com/natainditama/panducovid">
+    <img src="https://img.shields.io/github/last-commit/natainditama/panducovid" alt="last update" />
   </a>
 </p>
    
@@ -122,3 +131,10 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 Nata Inditama - [natainditama](https://linkedin.com/in/natainditama/) - natainditama.dev@gmail.com
 
 Project Link: [https://github.com/natainditama/panducovid](https://github.com/natainditama/panducovid)
+
+<!-- Resources -->
+## 📚 Resources
+
+- [Illustrations](https://scale.flexiple.com/illustrations/single/)
+- [Illustrations](https://freeillustrations.xyz/)
+- [Informations](https://covid19.go.id/)
