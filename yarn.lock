@@ -30,9 +30,9 @@
     js-tokens "^4.0.0"
 
 "@fancyapps/ui@^5.0.33":
-  version "5.0.34"
-  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-5.0.34.tgz#fc9a051d95cfbde8e4d496f04d8ce9513aae2f9e"
-  integrity sha512-pewm/3wWoAyhwA0Ddxp4pX1uASjZ24LKbVDJI0MG5E3Vv9DI0y17vILfrb+idj3gtF2VrwBez0thoPG09H5xoQ==
+  version "5.0.35"
+  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-5.0.35.tgz#30cf838ee562c13c01614409998b7f227c0c6b9b"
+  integrity sha512-2aTAksmugIDmadEEgK41i3RyNGE2zK7liOSXC41Oh7Lh1RBHpNyz97vbzKfuik9Pwx5B8hGGd8DEPcjyXbS3NQ==
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
