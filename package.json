@@ -45,7 +45,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "@fancyapps/ui": "^5.0.33",
+    "@fancyapps/ui": "^6.0.0",
     "flickity": "^3.0.0",
     "jquery": "^3.7.1",
     "smooth-scroll": "^16.1.3"

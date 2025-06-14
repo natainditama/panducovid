@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@fancyapps/ui@^5.0.33":
-  version "5.0.36"
-  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-5.0.36.tgz#dd5117cb579e9fc85c06dc32c947be6105724fb2"
-  integrity sha512-GMygQzp1MBTFNTT6AzpbL6pXTD6bTxwjmmpI1fe8Ozmmiseu8/g82Sudl1YhcbZmS4bJgaBOF5THDFGpXQ1fDw==
+"@fancyapps/ui@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-6.0.0.tgz#edb0b0e9e143d708cc2dcf3b2a871b6d2404b62d"
+  integrity sha512-X8ozhe+72ycH6/4sgltgxBMRRVaJHr8nQR2d5WRvQU8Cf/pluqLOWLotJ/cAKTVJvmn9ij6stMAYF8Eb8LiaWw==
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
