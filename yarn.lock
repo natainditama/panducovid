@@ -8,9 +8,9 @@
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
 "@fancyapps/ui@^6.0.0":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-6.0.3.tgz#ca7d90e6063e6aeddce3c9533311aebf0f573679"
-  integrity sha512-Uo/h8dKLa4HNdaoP3BfX+EyI/4MlNGLd3EaNDU27kFvpq8E/EGet1tloL6DPsQ7X8AUdKf2AHm5PtbKZxemVFg==
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-6.0.4.tgz#0cdb1b46b46e1962499d7e8d7f36d62f9bd4877b"
+  integrity sha512-thDicffmu8inBWte5ia1+JSJpOgieFKFn5GMSey9MpOcM0E5FnX8SXajn/lA0PFNsmFsT0pwcqRvnvDPqBjr0A==
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
